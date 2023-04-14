@@ -1,0 +1,147 @@
+:root {
+    --border: rgb(3, 169, 244);
+    
+    --g1: rgb(98, 0, 234);
+    --g2: rgb(236, 64, 122);
+    --g3: rgb(253, 216, 53);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: #000;
+    background-image: url(bence-boros-2WpkG7DzBRI-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(0.2vmax);
+}
+
+li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+a:hover {
+    color: orange;
+}
+
+header {
+    position: relative;
+    padding: 0 2rem;
+}
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.navbar .links{
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar .toggle_btn{
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    
+}
+
+.action_btn{
+    background-color: orange;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.action_btn:hover{
+    color: orange;
+    background-color: #fff;
+}
+
+.flex-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+
+.title{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 10%;
+   margin-bottom: 30px;
+    
+    
+}
+
+.liar{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    opacity: 0;
+    margin-right: 10%;
+    margin-top: 400px;
+    aspect-ratio: 1 / 1;
+    cursor: pointer;
+    position: relative;
+    width: 46vmin;
+    z-index: 3;
+}
+
+.liar:hover{
+    
+        opacity:1;
+        transition: 400ms;
+        cursor: pointer;
+    }
+    
+.span{
+    background-position: 0% 0%;
+    background-size: 5vmin 5vmin;
+    height: calc(100% - 10vmin);
+    padding: 10vmin;
+    position: relative;
+    transition: background-position 350ms ease;
+    width: calc(100% - 10vmin);
+    z-index: 3;
+
+}
+
+
+
+
+
+  
+ 
